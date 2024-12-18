@@ -1,7 +1,3 @@
-Here’s a clean and engaging **README** for your social handles displaying website with the "Buy Me a Coffee" feature:
-
----
-
 # 🌐 **Social Handles Hub**  
 
 👋 Welcome to my **Social Handles Hub**, a simple yet elegant website where you can explore all my social media profiles in one place. Additionally, if you love my work, you can show your support by buying me a coffee! ☕  
@@ -77,7 +73,3 @@ Check out the live version here:
 ---
 
 💬 **Thank you for visiting!** If you enjoyed this project, consider giving it a ⭐ on GitHub and sharing it with others. Happy coding! 🚀  
-
---- 
-
-Feel free to tweak it based on your preferences or let me know if you'd like specific changes! 😊
