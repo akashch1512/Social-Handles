@@ -114,25 +114,6 @@ footer {
   color: #dddddd;
 }
 
-@media (max-width: 500px) {
-  /* .container {
-      padding: 30px 20px;
-  } */
-
-  .profile-img {
-      width: 120px;
-      height: 120px;
-  }
-
-  h1 {
-      font-size: 1.8rem;
-  }
-
-  .link-button {
-      padding: 10px 15px;
-      font-size: 0.95rem;
-  }
-}
 
 .youtube { background: #FF0000;
   font-family: "Playwrite DE Grund Guides", serif;
