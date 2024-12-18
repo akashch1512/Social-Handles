@@ -1,0 +1,248 @@
+/* Reset some default styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Honk&family=Playwrite+DE+Grund+Guides&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background: url('https://art.ngfiles.com/images/571000/571613_qwertfx_attempt-at-pixel-art.gif?f1513372022') no-repeat center center fixed;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 15px;
+  border-radius: 10px;
+  text-align: center;
+  backdrop-filter: blur(50px);
+  max-width: 350px;
+  width: 80%;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #ffffff;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #1285cd, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: serif;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.profile-description {
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 15px 0;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.link-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.link-button i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.link-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateY(-3px);
+}
+
+.instagram { background: #C13584;
+  font-family: "Playwrite DE Grund Guides", serif;
+ }
+.instagram:hover { background: #a42f6e; }
+
+.linkedin { background: #0077B5;
+  font-family: "Playwrite DE Grund Guides", serif; }
+.linkedin:hover { background: #005582; }
+
+.twitter { background: #000000; }
+.twitter:hover { background: #333333; }
+
+.facebook { background: #1877F2; }
+.facebook:hover { background: #145dbf; }
+
+.github { background: #333333; }
+.github:hover { background: #24292e; }
+
+footer {
+  font-size: 0.9rem;
+  color: #dddddd;
+}
+
+@media (max-width: 500px) {
+  .container {
+      padding: 30px 20px;
+  }
+
+  .profile-img {
+      width: 120px;
+      height: 120px;
+  }
+
+  h1 {
+      font-size: 1.8rem;
+  }
+
+  .link-button {
+      padding: 10px 15px;
+      font-size: 0.95rem;
+  }
+}
+
+.youtube { background: #FF0000;
+  font-family: "Playwrite DE Grund Guides", serif;
+ }
+.youtube:hover { background: #cc0000;
+  font-family: "Playwrite DE Grund Guides", serif;
+ }
+
+.email { background: #D44638;
+  font-family: "Playwrite DE Grund Guides", serif; }
+.email:hover { background: #b33d2e; }
+
+.whatsapp { background: #25D366; }
+.whatsapp:hover { background: #1DA55A; }
+
+.small-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.small-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.small-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateY(-3px);
+}
+
+.github-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* .continue-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.continue-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.continue-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+} */
+
+/* .register-button {
+  font-family: "Playwrite DE Grund Guides", serif;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 0 5px #1aff00;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00aaff, 0 0 30px #00aaff;
+} */
+
+.buy-coffee-button {
+  font-family: "Playwrite DE Grund Guides", serif;
+  background-color: #ffdd57;
+  color: #333333;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buy-coffee-button:hover {
+  background-color: #ffc107;
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
